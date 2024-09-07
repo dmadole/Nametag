@@ -101,6 +101,7 @@ aligned:    ldi   0
 startup:    lbr   refresh
 
 
+          ; The following tables are all in the same page as they are all used
           ; in the inner display refresh loop, or the character update code,
           ; and this way the high byte of the pointer register only needs to be
           ; set once.
