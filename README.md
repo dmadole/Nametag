@@ -1,6 +1,6 @@
 # Nametag
 
-This is initial firmware for Lee Hart's name tag with 14-segment displays. Some information on the hardwaare can be found here:
+This is initial firmware for Lee Hart's name tag with 14-segment displays. Some information on the hardware can be found here:
 
 https://groups.io/g/cosmacelf/message/45282
 
@@ -15,3 +15,5 @@ To set via terminal, connect a terminal to RX, TX, and GND that is setup for 960
 The character set supported has 64 characters and includes upper and lower case as well as digits and some punctuation. However, due to the limited number of characters, some have been omitted that are similar looking to others, so you need to use those substitutes. For the following digits, use "O" for "0", "l" for "1", and "S" for "5", additionally, there is no lower-case "X" so use the upper-case version (there isn't really a way to make a lower-case one on a 14-segment display).
 
 Lee created this hardware for the Vintage Computer Fest Midwest 19 on September 7-9, 2024, and there was just a short lead time to put this together. This is the initial version to support kits that Lee brought to the show. Future versons will have more features, incluing support for RAM if installed, which will allow a full ASCII character set. This version was to support the lowest-cost form of the kit and show how much could be done with very minimal hardware.
+
+This is intended to be assembled using Mike Riley's Asm/02 assembler.
